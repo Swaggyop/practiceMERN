@@ -11,5 +11,5 @@ app.use(express.json());
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("DB Connected Successfully"))
   .catch(err => console.error("DB Connection Error:", err));
-
+app.use('/api/products', require('./routes/productRoutes'));
 app.listen(5000, () => console.log("Server running on port 5000"));
