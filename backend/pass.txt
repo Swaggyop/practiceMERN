@@ -1,0 +1,4 @@
+npm install mongodb
+mongodb+srv://<db_username>:<db_password>@odoo-prac.8o3q4xy.mongodb.net/?appName=odoo-prac
+
+mongodb+srv://odoo-practice:<db_password>@odoo-prac.8o3q4xy.mongodb.net/?appName=odoo-prac
